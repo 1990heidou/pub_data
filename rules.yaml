@@ -1,87 +1,59 @@
-geosite:google,
+payload:
+  # ===== geosite（需要你本地有 geosite 支持，或改成 domain）=====
+  - GEOSITE,google
+  - GEOSITE,github
+  - GEOSITE,netflix
+  - GEOSITE,steam
+  - GEOSITE,telegram
+  - GEOSITE,tumblr
+  - GEOSITE,speedtest
+  - GEOSITE,bbc
 
-geosite:github,
+  # ===== 精确域名 =====
+  - DOMAIN,gvt1.com
+  - DOMAIN,textnow.com
+  - DOMAIN,twitch.tv
+  - DOMAIN,wikileaks.org
+  - DOMAIN,naver.com
+  - DOMAIN,www.inoreader.com
 
-geosite:netflix,
+  # ===== 关键词匹配（替代 *xxx*）=====
+  - DOMAIN-KEYWORD,live
+  - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-KEYWORD,office
+  - DOMAIN-KEYWORD,windows
+  - DOMAIN-KEYWORD,sharepoint
+  - DOMAIN-KEYWORD,office365
+  - DOMAIN-KEYWORD,skype
+  - DOMAIN-KEYWORD,onedrive
+  - DOMAIN-KEYWORD,msocsp
+  - DOMAIN-KEYWORD,msauth
+  - DOMAIN-KEYWORD,microsoftonline
+  - DOMAIN-KEYWORD,msn
+  - DOMAIN-KEYWORD,onenote
+  - DOMAIN-KEYWORD,1drv
+  - DOMAIN-KEYWORD,wikipedia
+  - DOMAIN-KEYWORD,wikimedia
+  - DOMAIN-KEYWORD,inoreader
 
-geosite:steam,
+  # ===== IP 段 =====
+  - IP-CIDR,91.108.4.0/22
+  - IP-CIDR,91.108.8.0/22
+  - IP-CIDR,91.108.12.0/22
+  - IP-CIDR,91.108.20.0/22
+  - IP-CIDR,91.108.36.0/23
+  - IP-CIDR,91.108.38.0/23
+  - IP-CIDR,91.108.56.0/22
+  - IP-CIDR,149.154.160.0/20
+  - IP-CIDR,149.154.164.0/22
+  - IP-CIDR,149.154.172.0/22
+  - IP-CIDR,74.125.0.0/16
+  - IP-CIDR,173.194.0.0/16
+  - IP-CIDR,172.217.0.0/16
+  - IP-CIDR,216.58.200.0/24
+  - IP-CIDR,216.58.220.0/24
 
-geosite:telegram,
-
-geosite:tumblr,
-
-geosite:speedtest,
-
-geosite:bbc,
-
-domain:gvt1.com,
-
-domain:textnow.com,
-
-domain:twitch.tv,
-
-domain:wikileaks.org,
-
-domain:naver.com,
-
-91.108.4.0/22,
-
-91.108.8.0/22,
-
-91.108.12.0/22,
-
-91.108.20.0/22,
-
-91.108.36.0/23,
-
-91.108.38.0/23,
-
-91.108.56.0/22,
-
-149.154.160.0/20,
-
-149.154.164.0/22,
-
-149.154.172.0/22,
-
-74.125.0.0/16,
-
-173.194.0.0/16,
-
-172.217.0.0/16,
-
-216.58.200.0/24,
-
-216.58.220.0/24,
-13.107.42.12,
-13.107.136.9,
-52.114.158.92,
-13.107.42.12,
-13.107.136.9,
-52.114.158.92,
-*live.com*,
-*live.net*,
-*microsoft.com*,
-*office.com*,
-*office.net*,
-*windows.com*,
-*windows.net*,
-*sharepoint.com*,
-*office365.com*,
-*officeppe.net*,
-*skype.com*,
-*onedrive.com*,
-*msocsp.com*,
-*msauthimages.net*,
-*msauth.net*,
-*microsoftonline.com*,
-*msn.com*,
-*onenote.com*,
-*onenote.net*,
-*1drv.com*,
-*wikipedia.org*,
-*wikimedia.org*,
-*inoreader.com*,
-domain:www.inoreader.com
-
-整个配置地址
+  # ===== 单 IP =====
+  - IP-CIDR,13.107.42.12/32
+  - IP-CIDR,13.107.136.9/32
+  - IP-CIDR,52.114.158.92/32
